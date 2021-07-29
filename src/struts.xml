@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<struts>
+	<!-- 
+		1. 每个result组装到1个ActionResult中
+		2. 多个result组装到1个Map里,result的name作为key,result本身作为值
+		3. 每个action组装到1个ActionMapping中
+		4. 多个ActionMapping组装到1个Map里,mapping的name作为key,mapping本身作为值
+	 -->
+	<action name="/work/main" class="com.study.MainAction">
+		<result name="success" type="dispatcher">/WEB-INF/main.jsp</result>
+		<result name="fail" type="dispatcher">/WEB-INF/fail.jsp</result>
+		<result name="other" type="redirect">/WEB-INF/other.jsp</result>
+	</action>
+	<action name="/work/update" class="com.study.UpdateAction">
+		<result name="success" type="dispatcher">/WEB-INF/update.jsp</result>
+		<result name="fail" type="dispatcher">/WEB-INF/error.jsp</result>
+	</action>
+	<action name="/work/add" class="com.study.AddAction">
+		<result name="success" type="dispatcher">/WEB-INF/add.jsp</result>
+	</action>
+</struts>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students>
+	<stu id="S001">
+		<name>孙悟空</name>
+		<weapon>金箍棒</weapon>
+	</stu>
+	<stu id="S002">
+		<name>牛魔王</name>
+		<weapon>芭蕉扇</weapon>
+	</stu>
+	<stu id="S003">
+		<name>猪八戒</name>
+		<weapon>九齿钉耙</weapon>
+	</stu>
+</students>
